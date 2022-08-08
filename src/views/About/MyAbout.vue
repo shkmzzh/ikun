@@ -9,7 +9,7 @@
       <div class="share" @click="Share()"><span>&nbsp;&nbsp;分享给好友</span></div>
     </div>
     <div class="fonter">
-      <p>点击按钮即可播放鸡乐</p>
+      <p>音乐播放速度和您的网速有关</p>
       <h5>声明:作者是真爱粉,仅提供技术支持</h5>
     </div>
 
@@ -107,9 +107,19 @@ export default {
     position: fixed;
     bottom: 50px;
     width: 100%;
+    min-width: 320px;
+    max-width: 640px;
     height: 100px;
     text-align: center;
     background: rgba(255, 255, 255, 0.5);
+    p{
+      font-size: 12px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h5{
+      margin: 0 auto;
+    }
   }
 }
 </style>
