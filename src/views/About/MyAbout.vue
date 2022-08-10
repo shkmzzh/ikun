@@ -45,7 +45,7 @@ export default {
     showAuthor() {
       this.show = true
       Dialog.alert({
-        title: 'QQ:3081764857',
+        title: 'QQ:2161626200',
         message: '披金成王，伴坤远航。狮子座为王，蔡徐坤为皇。'
       }).then(() => {
         // on close
